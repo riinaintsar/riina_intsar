@@ -25,9 +25,10 @@ double temp = -15.0;
       System.out.println("Wear warm");
     }
     else if (temp <= 30) {
-      System.out.println("Wear normal");
-    }
-    else {
-      System.out.println("You need cooling");
-      }
-```
+[Uploading collab0604 ({
+  "cells":
+
+
+
+
+

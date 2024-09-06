@@ -1,7 +1,4 @@
-Read me file uses markdown syntax to edit any text, formulas or codes. To use emojis - use "windows" sign + . "dot" 
-
-
-# Welcome to my repository 😎🤩
+# Welcome to Riina's repository 
 
 ## My skills
 - Java

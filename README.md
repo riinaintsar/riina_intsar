@@ -3,27 +3,17 @@
 ## My skills
 - Java
 - Python
-- Github 
+- Github
+- Postman
+- SQL 
 
-## My major projects 
-1. Java online banking app
-2. Python AI tool
-3. My own social network 
+# Python
 
-## My favourite part of code
+## Here are examples of my Python projects
 
-```java 
-double temp = -15.0;
+### Coin toss game
 
-    if (temp <= 5) {
-      System.out.println("Wear super warm");
-    }
-    else if (temp <= 15) {
-      System.out.println("Wear warm");
-    }
-    else if (temp <= 30) {
-[Uploading collab0604 ({
-  "cells":
+
 
 
 

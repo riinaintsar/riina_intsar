@@ -8,6 +8,7 @@ This repository demonstrates some of my Python and Java projects from my studies
 - Github
 - Postman
 - SQL
+- GIT
 - Visual Studio Code
 
 

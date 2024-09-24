@@ -1,7 +1,7 @@
 # Here are examples of my Python projects
 
 ## Data analysis from Titanic dataset 
-
+```py
 # Load DataSet into a Pandas DataFrame
 import pandas as pd
 titanic_df = pd.read_csv('/content/train.csv')
@@ -58,6 +58,7 @@ age_labels = ['0-18', '19-35', '36-55', '56-75', '76+']
 titanic_df_clean['AgeGroup'] = pd.cut(titanic_df_clean['Age'], bins=age_bins, labels=age_labels, right=False) # create new agegroup
 
 age_distribution = titanic_df_clean['AgeGroup'].value_counts().sort_index()
+```
 
 plt.pie(age_distribution.values, labels=age_distribution.index, autopct='%1.1f%%')
 plt.title('Age Distribution of Titanic Passengers')

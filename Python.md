@@ -58,10 +58,12 @@ age_labels = ['0-18', '19-35', '36-55', '56-75', '76+']
 titanic_df_clean['AgeGroup'] = pd.cut(titanic_df_clean['Age'], bins=age_bins, labels=age_labels, right=False) # create new agegroup
 
 age_distribution = titanic_df_clean['AgeGroup'].value_counts().sort_index()
-```
-
 plt.pie(age_distribution.values, labels=age_distribution.index, autopct='%1.1f%%')
 plt.title('Age Distribution of Titanic Passengers')
 plt.show()
+```
+
+![image](https://github.com/user-attachments/assets/7595f133-262e-43ab-8453-81005054e243)
+
 
 

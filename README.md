@@ -3,7 +3,7 @@
 This repository demonstrates some of my Python and Java projects from my studies in programming. 
 
 ## My skills
-- Java
+- Java https://github.com/riinaintsar/Riina/blob/main/Java.md 
 - Python
 - Github
 - Postman

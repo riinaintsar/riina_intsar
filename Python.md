@@ -65,5 +65,22 @@ plt.show()
 
 ![image](https://github.com/user-attachments/assets/7595f133-262e-43ab-8453-81005054e243)
 
+## Jukebox program to select music
+```py
+file_name = input("Insert the name of the file: ")
+
+with open(file_name, encoding = "UTF-8") as file:
+    songs = [line.strip() for line in file]
+    
+for i, song in enumerate(songs, 1):
+    print(f"{i}. {song}")
+
+
+music = int(input("Select the number of the song: "))
+
+if 1 <= music <= len(songs):
+    print("The song being played is: "+ songs[music -1])
+```
+![image](https://github.com/user-attachments/assets/5f1ac2b2-7455-4771-a8c8-5d18c1903680)
 
 
